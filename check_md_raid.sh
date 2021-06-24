@@ -1,10 +1,4 @@
 #!/bin/bash
-#
-# Created by Sebastian Grewe, Jammicron Technology
-# Changes By Jasem Elayeb on 02.03.2016
-# JE: add Physical Disks Name RAID_DISKS
-# JE: add Physical Disks Status DISKS_STATUS
-# JE: add Array Names RAID_ARRAY
 
 # Get count of raid arrays
 RAID_DEVICES=`grep ^md -c /proc/mdstat`
